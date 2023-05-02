@@ -1,0 +1,21 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "lint": "npx eslint ./src/server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [],
+  "author": "Lucky",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  }
+}
